@@ -16,6 +16,9 @@
 		3C7FE80C2AAF6EFE00AF657E /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7FE80B2AAF6EFE00AF657E /* maps.png */; };
 		3C7FE8102AAF72C700AF657E /* leaderboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7FE80E2AAF72C700AF657E /* leaderboard.png */; };
 		3C7FE8132AAF792C00AF657E /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7FE8122AAF792C00AF657E /* login.swift */; };
+		3CB4E9242AAFD98000A6846E /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CB4E9232AAFD98000A6846E /* info.plist */; };
+		3CB4E9272AAFDE5800A6846E /* Avenir Next Condensed.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 3CB4E9262AAFDE5800A6846E /* Avenir Next Condensed.ttc */; };
+		3CB4E9292AAFE83F00A6846E /* HelveticaNeue.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 3CB4E9282AAFE83F00A6846E /* HelveticaNeue.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,10 @@
 		3C7FE80B2AAF6EFE00AF657E /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
 		3C7FE80E2AAF72C700AF657E /* leaderboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaderboard.png; sourceTree = "<group>"; };
 		3C7FE8122AAF792C00AF657E /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		3CB4E9232AAFD98000A6846E /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		3CB4E9252AAFDCEC00A6846E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB4E9262AAFDE5800A6846E /* Avenir Next Condensed.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Next Condensed.ttc"; sourceTree = "<group>"; };
+		3CB4E9282AAFE83F00A6846E /* HelveticaNeue.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue.ttc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +68,13 @@
 		3C7FE7F82AAF62FE00AF657E /* EcoBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				3CB4E9252AAFDCEC00A6846E /* Info.plist */,
+				3CB4E9202AAFD74800A6846E /* Fonts proj */,
 				3C7FE7F92AAF62FE00AF657E /* EcoBuddyApp.swift */,
 				3C7FE7FB2AAF62FE00AF657E /* ContentView.swift */,
 				3C7FE8122AAF792C00AF657E /* login.swift */,
 				3C7FE7FD2AAF62FF00AF657E /* Assets.xcassets */,
+				3CB4E9232AAFD98000A6846E /* info.plist */,
 				3C7FE8092AAF6D8700AF657E /* home.png */,
 				3C7FE8072AAF6C3900AF657E /* logo_top.png */,
 				3C7FE80E2AAF72C700AF657E /* leaderboard.png */,
@@ -80,6 +90,15 @@
 				3C7FE8002AAF62FF00AF657E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CB4E9202AAFD74800A6846E /* Fonts proj */ = {
+			isa = PBXGroup;
+			children = (
+				3CB4E9282AAFE83F00A6846E /* HelveticaNeue.ttc */,
+				3CB4E9262AAFDE5800A6846E /* Avenir Next Condensed.ttc */,
+			);
+			path = "Fonts proj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +159,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB4E9242AAFD98000A6846E /* info.plist in Resources */,
 				3C7FE80A2AAF6D8700AF657E /* home.png in Resources */,
 				3C7FE80C2AAF6EFE00AF657E /* maps.png in Resources */,
+				3CB4E9292AAFE83F00A6846E /* HelveticaNeue.ttc in Resources */,
+				3CB4E9272AAFDE5800A6846E /* Avenir Next Condensed.ttc in Resources */,
 				3C7FE8012AAF62FF00AF657E /* Preview Assets.xcassets in Resources */,
 				3C7FE8082AAF6C3900AF657E /* logo_top.png in Resources */,
 				3C7FE7FE2AAF62FF00AF657E /* Assets.xcassets in Resources */,
@@ -290,6 +312,7 @@
 				DEVELOPMENT_TEAM = 49895XJKW2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoBuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,6 +342,7 @@
 				DEVELOPMENT_TEAM = 49895XJKW2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoBuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
