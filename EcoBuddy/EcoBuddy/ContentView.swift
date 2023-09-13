@@ -15,13 +15,13 @@ struct ContentView: View {
             //background
             VStack {
                 Rectangle()
-                    .foregroundStyle(Color(red: 0.982, green: 0.928, blue: 0.802))
+                    .foregroundColor(Color(red: 0.982, green: 0.928, blue: 0.802))
                     .frame(height: 50)
                 Image("logo_top")
                     
                 
                 Rectangle()
-                    .foregroundStyle(Color(red: 0.982, green: 0.928, blue: 0.802))
+                    .foregroundColor(Color(red: 0.982, green: 0.928, blue: 0.802))
 
                 
                 //bottom navigation
@@ -29,7 +29,7 @@ struct ContentView: View {
                     Rectangle()
                         .frame(width: 397,height: 100)
                         .cornerRadius(25)
-                    .foregroundStyle(Color(red: 0.825, green: 0.64, blue: 0.452))
+                        .foregroundStyle(Color(red: 0.825, green: 0.64, blue: 0.452))
                     
                     HStack (spacing: 20){
                         Image("home")
