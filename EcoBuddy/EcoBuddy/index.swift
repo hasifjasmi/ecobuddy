@@ -13,7 +13,7 @@ struct index: View {
             Home().tabItem{
                 Label("Home",systemImage: "house.fill")
             }
-            login().tabItem{
+            LocationDetail().tabItem{
                 Label("Catalogue",systemImage: "books.vertical.fill")
             }
             ContentView().tabItem{

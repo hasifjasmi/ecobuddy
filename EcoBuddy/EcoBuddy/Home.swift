@@ -10,7 +10,8 @@ import SwiftUI
 struct Home: View {
     let places = ["Taman Negara Malaysia","Kuan Wellness EcoPark", "Taman Eko Rimba", "Bukit Jelutong Eco Community"]
     let state = ["Pahang","Selangor","Selangor","Selangor"]
-    @State var j:Int = 0
+   // var string = "Try test trestt"
+     //   @State private var stringArray = [String]()
 
     var width = 110.0
     var height = 50.0
@@ -19,9 +20,13 @@ struct Home: View {
             ContentView()
             
             VStack{
-                RoundedRectangle(cornerRadius: 23)
-                    .foregroundColor(Color.white)
+                
+                ZStack {
+                    RoundedRectangle(cornerRadius: 23)
+                        .foregroundColor(Color.white)
                     .frame(width:360,height:50)
+                    
+                }
                 Spacer().frame(height: 25)
                 HStack{
                     ZStack {
@@ -79,12 +84,11 @@ struct Home: View {
                                 Rectangle()
                                     .foregroundColor(.white)
                                     .cornerRadius(20)
-                                    .frame(width: 330)
+                                    .frame(width: 330,height:120)
                                 HStack {
                                     Image("\(place.0)")
                                         .resizable()
-                                        
-                                        .frame(width: 140,height:120)
+                                        .frame(width: 140,height:100)
                                         .cornerRadius(15)
                                     Spacer().frame(width: 16)
                                     
@@ -101,7 +105,7 @@ struct Home: View {
                                     }
                                     
                                 }
-                            }.frame(width: 330, height:150) //affects the individuals rectangle of the park
+                            }.frame(width: 330, height:120) //affects the individuals rectangle of the park
                             
                             
                         }
@@ -117,6 +121,18 @@ struct Home: View {
                     .frame(height: 750 )
                 
             }
+//            VStack(spacing: -21) {
+//                        ForEach(stringArray, id: \.self) { i in
+//                            Text("\(i)\n")
+//                                .background(.red)
+//                                .bold()
+//                        }
+//                    }.onAppear {
+//                        for i in string {
+//                            stringArray.append(String(i))
+//                        }
+//                    }
+                    
         }
     }
 }
