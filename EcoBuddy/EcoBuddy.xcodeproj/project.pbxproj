@@ -21,9 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
 		3C1CB0AC2AB164F700CB53CA /* index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = index.swift; path = ../../../../Users/stdc_15/Documents/GitHub/ecobuddy/EcoBuddy/EcoBuddy/index.swift; sourceTree = DEVELOPER_DIR; };
 		3C7B61852AB044BF009FE0C3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Home.swift; path = ../../../../Users/stdc_15/Documents/GitHub/ecobuddy/EcoBuddy/EcoBuddy/Home.swift; sourceTree = DEVELOPER_DIR; };
 		3C7BE1EB2AB17BA000BEEA6D /* LocationDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationDetail.swift; path = EcoBuddy/LocationDetail.swift; sourceTree = SOURCE_ROOT; };
+=======
+		3C1CB0AC2AB164F700CB53CA /* index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = index.swift; path = EcoBuddy/index.swift; sourceTree = SOURCE_ROOT; };
+		3C7B61852AB044BF009FE0C3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		3C7FE7F62AAF62FE00AF657E /* EcoBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7FE7F92AAF62FE00AF657E /* EcoBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoBuddyApp.swift; sourceTree = "<group>"; };
 		3C7FE7FB2AAF62FE00AF657E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = EcoBuddy/ContentView.swift; sourceTree = SOURCE_ROOT; };
