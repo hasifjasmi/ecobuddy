@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3C1CB0AC2AB164F700CB53CA /* index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = index.swift; path = ../../../../Users/stdc_15/Documents/GitHub/ecobuddy/EcoBuddy/EcoBuddy/index.swift; sourceTree = DEVELOPER_DIR; };
+		3C1CB0AC2AB164F700CB53CA /* index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = index.swift; path = ../../../../Users/stdc_24/Documents/GitHub/EcoBuddy/EcoBuddy/index.swift; sourceTree = DEVELOPER_DIR; };
 		3C7B61852AB044BF009FE0C3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		3C7FE7F62AAF62FE00AF657E /* EcoBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7FE7F92AAF62FE00AF657E /* EcoBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoBuddyApp.swift; sourceTree = "<group>"; };
